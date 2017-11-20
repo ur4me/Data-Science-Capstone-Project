@@ -158,7 +158,7 @@ $(document).ready(function () {
 <div id="data-processing" class="section level3">
 <h3>Data Processing</h3>
 <p>According to Wikipedia (N-gram, n.d.), “an <em>n</em>-gram is a contiguous sequence of n items from a given sequence of text or speech.” This package takes a key word or phrase, matches that key to the most frequent <em>n</em>-1 term found in a TDM of <em>n</em>-word terms, and returns the <em>n</em>th word of that item.</p>
-<p>Of course, not all possible words or phrases exist in the corpus from which the TDM was derived. For this reason, a simplified Katz’s back-off model is used, which backs off to smaller <em>n</em>-grams when a key is not found in the larger <em>n</em>-gram. The maximum <em>n</em>-gram handled is a trigram. The word returned is the match found in the largest <em>n</em>-gram where the key is found. When the key is not found in the unigram, the most common word in the corpus “will” is returned. This function is demonstrated using a Shiny app hosted on shinyapps.io at <a href="https://michaelgill1969.shinyapps.io/word-prediction/" class="uri">https://michaelgill1969.shinyapps.io/word-prediction/</a>.</p>
+<p>Of course, not all possible words or phrases exist in the corpus from which the TDM was derived. For this reason, a simplified Katz’s back-off model is used, which backs off to smaller <em>n</em>-grams when a key is not found in the larger <em>n</em>-gram. The maximum <em>n</em>-gram handled is a trigram. The word returned is the match found in the largest <em>n</em>-gram where the key is found. When the key is not found in the unigram, the most common word in the corpus “will” is returned. </a>.</p>
 </div>
 <div id="conclusion" class="section level3">
 <h3>Conclusion</h3>
