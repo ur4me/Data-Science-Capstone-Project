@@ -1,0 +1,12 @@
+name: Word_predictor
+title: Word_predictor
+username:
+account: jinyongkim
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 237598
+bundleId: 1084895
+url: https://jinyongkim.shinyapps.io/Word_predictor/
+when: 1511142684.35969
+asMultiple: FALSE
+asStatic: FALSE
